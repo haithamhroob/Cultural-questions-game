@@ -1,17 +1,20 @@
-# culter_game
+# رحلة الثقافة (Cultural Quest) 🌍🏆
 
-A new Flutter project.
+تطبيق مسابقات ثقافيه احترافي مبني باستخدام Flutter، يهدف إلى اختبار معلوماتك في مختلف المجالات (التاريخ، الجغرافيا، العلوم، الرياضة، الثقافة الإسلامية، والرياضيات) بطريقة ممتعة وتفاعلية.
 
-## Getting Started
+## المميزات (Features) ✨
+*   **200 سؤال متنوع:** موزعة على 20 مستوى من الصعوبة.
+*   **نظام مستويات:** لا يمكنك الانتقال للمستوى التالي إلا بعد تحقيق نتيجة جيدة.
+*   **سجل اللاعبين:** إمكانية إضافة أكثر من لاعب وحفظ تقدم كل واحد منهم بشكل منفصل.
+*   **يعمل بدون إنترنت (Full Offline):** لا يحتاج إلى اتصال بالشبكة، يتم حفظ البيانات محلياً.
+*   **تصميم عصري:** واجهة مستخدم جذابة مع دعم كامل للغة العربية (RTL).
 
-This project is a starting point for a Flutter application.
+## كيفية التشغيل (Getting Started) 🚀
 
-A few resources to get you started if this is your first Flutter project:
+1.  تأكد من تثبيت [Flutter SDK](https://docs.flutter.dev/get-started/install).
+2.  قم بتحميل المشروع (Clone).
+3.  شغل الأمر `flutter pub get` لتحميل المكتبات.
+4.  استخدم `flutter run` لتشغيل التطبيق على المحاكي أو الجوال.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*تم التطوير بواسطة هيثم باستخدام تقنيات Flutter & Dart.*

@@ -1,20 +1,46 @@
-# رحلة الثقافة (Cultural Quest) 🌍🏆
+# Cultural Quest 🌍🏆
 
-تطبيق مسابقات ثقافيه احترافي مبني باستخدام Flutter، يهدف إلى اختبار معلوماتك في مختلف المجالات (التاريخ، الجغرافيا، العلوم، الرياضة، الثقافة الإسلامية، والرياضيات) بطريقة ممتعة وتفاعلية.
+Cultural Quest is a cultural quiz application built with Flutter. It tests players' knowledge across a variety of fields — including History, Geography, Science, Sports, Islamic Culture, Arabic Language, and Mathematics — through a fun and interactive experience.
 
-## المميزات (Features) ✨
-*   **200 سؤال متنوع:** موزعة على 20 مستوى من الصعوبة.
-*   **نظام مستويات:** لا يمكنك الانتقال للمستوى التالي إلا بعد تحقيق نتيجة جيدة.
-*   **سجل اللاعبين:** إمكانية إضافة أكثر من لاعب وحفظ تقدم كل واحد منهم بشكل منفصل.
-*   **يعمل بدون إنترنت (Full Offline):** لا يحتاج إلى اتصال بالشبكة، يتم حفظ البيانات محلياً.
-*   **تصميم عصري:** واجهة مستخدم جذابة مع دعم كامل للغة العربية (RTL).
+## Features ✨
 
-## كيفية التشغيل (Getting Started) 🚀
+- **200 diverse questions** spread across 20 progressive difficulty levels.
+- **Level progression system** — players must achieve a passing score before unlocking the next level.
+- **Multi-player support** — multiple players can be added, with each player's progress saved independently.
+- **Fully offline** — no internet connection required; all data is stored locally on the device.
+- **Modern UI** — a clean, attractive interface with full Arabic (RTL) support.
 
-1.  تأكد من تثبيت [Flutter SDK](https://docs.flutter.dev/get-started/install).
-2.  قم بتحميل المشروع (Clone).
-3.  شغل الأمر `flutter pub get` لتحميل المكتبات.
-4.  استخدم `flutter run` لتشغيل التطبيق على المحاكي أو الجوال.
+## Technologies Used 🛠️
+
+- **Flutter** (Material 3)
+- **Dart**
+- **Provider** — state management
+- **shared_preferences** — local data persistence
+- **google_fonts** — custom typography
+
+## Getting Started 🚀
+
+1. Install the [Flutter SDK](https://docs.flutter.dev/get-started/install).
+2. Clone the repository.
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the application on an emulator or physical device:
+   ```bash
+   flutter run
+   ```
+
+## Project Structure 📁
+
+```
+lib/
+├── main.dart              # App entry point and theme configuration
+├── data/                  # Question banks and seed data
+├── models/                # Data models (e.g., Question, Player)
+├── screens/               # UI screens (profile setup, dashboard, quiz, etc.)
+└── services/              # Business logic (authentication, progress tracking)
+```
 
 ---
-*تم التطوير بواسطة هيثم باستخدام تقنيات Flutter & Dart.*
+*Developed by Haitham using Flutter & Dart.*
